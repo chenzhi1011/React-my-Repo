@@ -14,6 +14,6 @@ root.render(
     <App />
     
 );
-test.render(<Appjsxtest/>);
+// test.render(<Appjsxtest/>);
 
 

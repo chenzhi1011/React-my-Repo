@@ -9,14 +9,19 @@ function　getflag (){
 }
 
 function Appjsxtest() {
+    const handleClick = ()=>{
+        console.log('button was clicked')
+    }
     return (
+    
     <div>
         {getflag()}
+        <button onClick={handleClick}>click me</button>
     </div>
-        
- 
     );
   }
+
+
   
   export default Appjsxtest;
   
